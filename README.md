@@ -14,6 +14,7 @@ npm install --save ripple-offline
 
 ## Usage
 
+````
 var hex = SignedTransaction.create(options)
 
 new Submitter().submit(hex)
@@ -23,4 +24,4 @@ new Submitter().submit(hex)
   .error(error => {
     // error submitting transaction
   })
-
+````
